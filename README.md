@@ -60,3 +60,12 @@ house-price-prediction/
 ├── models/
 ├── notebooks/
 ├── data/
+
+## Model File Note
+
+The trained model file (`house_price_model.pkl`) is not included in this GitHub repository because its size exceeds GitHub's 100 MB upload limit.
+
+To run the project locally:
+1. Retrain the model using the notebook
+OR
+2. Place the trained `.pkl` model manually inside the `models/` folder
