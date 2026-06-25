@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>House Price Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>House Price Predictor</h1>
+    <p>Enter housing area information to estimate the house price.</p>
+
+    <label>Median Income</label>
+    <input id="MedInc" type="number" value="8">
+
+    <label>House Age</label>
+    <input id="HouseAge" type="number" value="20">
+
+    <label>Average Rooms</label>
+    <input id="AveRooms" type="number" value="6">
+
+    <label>Average Bedrooms</label>
+    <input id="AveBedrms" type="number" value="1">
+
+    <label>Population</label>
+    <input id="Population" type="number" value="1000">
+
+    <label>Average Occupancy</label>
+    <input id="AveOccup" type="number" value="3">
+
+    <label>Latitude</label>
+    <input id="Latitude" type="number" value="34">
+
+    <label>Longitude</label>
+    <input id="Longitude" type="number" value="-118">
+
+    <button onclick="predictPrice()">Predict Price</button>
+
+    <div id="resultBox">
+      <h2 id="result">Prediction will appear here</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
